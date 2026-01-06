@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zelim Sajt - Profesionalna izrada i održavanje web sajtova. Kreiramo moderne, responsive sajtove prilagođene vašim potrebama.">
+    <meta name="keywords" content="izrada sajtova, web dizajn, održavanje sajtova, web development">
+    <title>Zelim Sajt - Profesionalna Izrada i Održavanje Web Sajtova</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="Zelim Sajt Logo" class="logo-image">
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Početna</a></li>
+                    <li><a href="#services" class="nav-link">Usluge</a></li>
+                    <li><a href="#packages" class="nav-link">Ponude</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Vaša Vizija</span><br>
+                    Naša Kreacija
+                </h1>
+                <p class="hero-subtitle">
+                    Profesionalna izrada i održavanje web sajtova<br>
+                    Pretvorite svoje ideje u digitalno iskustvo
+                </p>
+                <div class="hero-buttons">
+                    <a href="#packages" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Pogledaj Ponude
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Kontaktiraj Nas
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Technology Strip -->
+    <section class="tech-strip">
+        <div class="tech-strip-overlay"></div>
+        <div class="tech-strip-content">
+            <div class="tech-logos">
+                <div class="tech-logo-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fas fa-code"></i>
+                    <span>VSCode</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fas fa-robot"></i>
+                    <span>Blackbox AI</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-wordpress"></i>
+                    <span>WordPress</span>
+                </div>
+                <!-- Duplicate set for seamless loop -->
+                <div class="tech-logo-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fas fa-code"></i>
+                    <span>VSCode</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fas fa-robot"></i>
+                    <span>Blackbox AI</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+                <div class="tech-logo-item">
+                    <i class="fab fa-wordpress"></i>
+                    <span>WordPress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše <span class="gradient-text">Usluge</span></h2>
+                <p class="section-subtitle">Kompletan spektar web rešenja za vaš biznis</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Izrada Web Sajtova</h3>
+                    <p>Kreiramo moderne, responsive i SEO optimizovane sajtove prilagođene vašim potrebama i ciljevima.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive dizajn</li>
+                        <li><i class="fas fa-check"></i> SEO optimizacija</li>
+                        <li><i class="fas fa-check"></i> Brzo učitavanje</li>
+                        <li><i class="fas fa-check"></i> Moderni dizajn</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Održavanje Sajtova</h3>
+                    <p>Redovno ažuriranje, sigurnosne provere i tehnička podrška za nesmetano funkcionisanje vašeg sajta.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Redovni backup</li>
+                        <li><i class="fas fa-check"></i> Sigurnosne provere</li>
+                        <li><i class="fas fa-check"></i> Tehnička podrška</li>
+                        <li><i class="fas fa-check"></i> Ažuriranje sadržaja</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Rešenja</h3>
+                    <p>Kompletna online prodavnica sa sistemom plaćanja, upravljanjem proizvodima i analitikom.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Online plaćanje</li>
+                        <li><i class="fas fa-check"></i> Upravljanje proizvodima</li>
+                        <li><i class="fas fa-check"></i> Analitika prodaje</li>
+                        <li><i class="fas fa-check"></i> Mobilna aplikacija</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše <span class="gradient-text">Ponude</span></h2>
+                <p class="section-subtitle">Izaberite rešenje koje najbolje odgovara vašim potrebama</p>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Jednostavan Sajt -->
+                <div class="package-card">
+                    <div class="package-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="package-header">
+                        <h4>Jednostavan Sajt</h4>
+                        <p class="package-description">Idealno za prikaz vašeg obrta ili male firme</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Do 5 stranica</li>
+                        <li><i class="fas fa-check"></i> Responsive dizajn</li>
+                        <li><i class="fas fa-check"></i> Osnovna SEO optimizacija</li>
+                        <li><i class="fas fa-check"></i> Kontakt forma</li>
+                        <li><i class="fas fa-check"></i> Google Maps integracija</li>
+                        <li><i class="fas fa-check"></i> Galerija slika</li>
+                        <li><i class="fas fa-check"></i> Društvene mreže linkovi</li>
+                        <li><i class="fas fa-check"></i> Brzo učitavanje</li>
+                    </ul>
+                    <div class="package-price-request">
+                        <i class="fas fa-tag"></i>
+                        <span>Kontaktirajte nas za cenu</span>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Zatražite Ponudu</a>
+                </div>
+
+                <!-- Profesionalan Sajt -->
+                <div class="package-card featured">
+                    <div class="popular-badge">Najpopularnije</div>
+                    <div class="package-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="package-header">
+                        <h4>Profesionalan Sajt</h4>
+                        <p class="package-description">Kompletan web sajt sa redovnim održavanjem</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Do 15 stranica</li>
+                        <li><i class="fas fa-check"></i> Premium dizajn</li>
+                        <li><i class="fas fa-check"></i> Napredna SEO optimizacija</li>
+                        <li><i class="fas fa-check"></i> Blog sistem</li>
+                        <li><i class="fas fa-check"></i> Newsletter integracija</li>
+                        <li><i class="fas fa-check"></i> Google Analytics</li>
+                        <li><i class="fas fa-check"></i> Redovno održavanje</li>
+                        <li><i class="fas fa-check"></i> Tehnička podrška</li>
+                        <li><i class="fas fa-check"></i> Sigurnosne provere</li>
+                        <li><i class="fas fa-check"></i> Mesečni backup</li>
+                        <li><i class="fas fa-check"></i> Ažuriranje sadržaja</li>
+                        <li><i class="fas fa-check"></i> Performance optimizacija</li>
+                    </ul>
+                    <div class="package-price-request">
+                        <i class="fas fa-tag"></i>
+                        <span>Kontaktirajte nas za cenu</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Zatražite Ponudu</a>
+                </div>
+
+                <!-- Online Trgovina -->
+                <div class="package-card">
+                    <div class="package-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="package-header">
+                        <h4>Online Trgovina</h4>
+                        <p class="package-description">E-commerce rešenje sa kompletnim održavanjem</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Neograničen broj proizvoda</li>
+                        <li><i class="fas fa-check"></i> Sistem online plaćanja</li>
+                        <li><i class="fas fa-check"></i> Upravljanje porudžbinama</li>
+                        <li><i class="fas fa-check"></i> Praćenje zaliha</li>
+                        <li><i class="fas fa-check"></i> Kuponi i popusti</li>
+                        <li><i class="fas fa-check"></i> Višejezična podrška</li>
+                        <li><i class="fas fa-check"></i> Analitika prodaje</li>
+                        <li><i class="fas fa-check"></i> Email notifikacije</li>
+                        <li><i class="fas fa-check"></i> Redovno održavanje</li>
+                        <li><i class="fas fa-check"></i> 24/7 monitoring</li>
+                        <li><i class="fas fa-check"></i> Dnevni backup</li>
+                        <li><i class="fas fa-check"></i> Prioritetna podrška</li>
+                        <li><i class="fas fa-check"></i> Sigurnosne provere</li>
+                        <li><i class="fas fa-check"></i> SEO optimizacija</li>
+                    </ul>
+                    <div class="package-price-request">
+                        <i class="fas fa-tag"></i>
+                        <span>Kontaktirajte nas za cenu</span>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Zatražite Ponudu</a>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="packages-info">
+                <div class="info-card">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Prilagođena Rešenja</h4>
+                    <p>Svaka ponuda se može prilagoditi vašim specifičnim potrebama i budžetu</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-headset"></i>
+                    <h4>Besplatna Konsultacija</h4>
+                    <p>Kontaktirajte nas za besplatnu konsultaciju i detaljnu ponudu</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h4>Brza Realizacija</h4>
+                    <p>Vaš sajt može biti spreman za lansiranje u roku od 2-4 nedelje</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naš <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-subtitle">Pogledajte naš realizovan projekat</p>
+            </div>
+            <div class="portfolio-grid portfolio-single">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/Portofolio Slika.png" alt="Sarah Kolači - Svježi kolači pravljeni sa ljubavlju" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Sarah Kolači</h4>
+                        <p>Profesionalan sajt za prikaz usluga i portfolio rada</p>
+                        <div class="portfolio-tags">
+                            <span>Portfolio</span>
+                            <span>Responsive</span>
+                            <span>Modern Design</span>
+                        </div>
+                        <a href="https://sarahkolaci.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline portfolio-link">
+                            <i class="fas fa-external-link-alt"></i> Posetite Sajt
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktirajte <span class="gradient-text">Nas</span></h2>
+                <p class="section-subtitle">Spremni smo da realizujemo vaš projekat</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Stupite u kontakt</h3>
+                    <p>Imate pitanja ili želite da započnete projekat? Kontaktirajte nas i odgovorićemo u najkraćem roku.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:azurfaic006@gmail.com">azurfaic006@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefon</h4>
+                                <a href="tel:+387603005224">+387 60 300 5224</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Radno Vreme</h4>
+                                <p>Pon - Pet: 9:00 - 17:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Vaše Ime" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Vaš Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Vaš Telefon">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Izaberite Uslugu</option>
+                            <option value="website">Izrada Web Sajta</option>
+                            <option value="maintenance">Održavanje Sajta</option>
+                            <option value="ecommerce">E-Commerce Rešenje</option>
+                            <option value="other">Ostalo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Vaša Poruka" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Pošalji Poruku
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Zelim Sajt Logo" class="footer-logo-image">
+                    </div>
+                    <p>Profesionalna izrada i održavanje web sajtova. Pretvaramo vaše ideje u digitalno iskustvo.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Brzi Linkovi</h4>
+                    <ul>
+                        <li><a href="#home">Početna</a></li>
+                        <li><a href="#services">Usluge</a></li>
+                        <li><a href="#packages">Ponude</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> azurfaic006@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +387 60 300 5224</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zelim Sajt. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/emailjs-config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
